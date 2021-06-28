@@ -21,6 +21,7 @@ Once two players have joined a game either player can start by making a move. On
 * Security, authentication and authorization
 * Tests for the controllers and react ui.
 * Error handling. The controllers expect the client to pass in valid values and will not fail with clear error messages if entities are not found. The ui will not handle io-problems gracefully either.
+* WebSockets instead of polling would've been a better solution for the ui but I didn't have the time to dig into that this time.
 
 ### I focused on:
 
